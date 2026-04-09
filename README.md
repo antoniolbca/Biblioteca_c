@@ -22,3 +22,6 @@ Sistema desenvolvido em linguagem C para gerenciamento de livros através de um 
 
 - Linguagem C
 - Compilador GCC
+
+## Objetivo 
+- Projeto desenvolvido para praticar lógica de programação, organização de dados e construção de sistemas interativos em C.
