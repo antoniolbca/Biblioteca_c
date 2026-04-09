@@ -1,22 +1,24 @@
-📚 Sistema de Biblioteca em C
+#  Sistema de Biblioteca em C
 
-Sistema simples desenvolvido em linguagem C para gerenciamento de livros.
+Sistema desenvolvido em linguagem C para gerenciamento de livros através de um menu interativo no terminal.
 
-- Funcionalidades
-Cadastro de livros
-Listagem de livros cadastrados
-Menu interativo no terminal
+## Conceitos aplicados
 
-- Conceitos utilizados
-Structs
-Arrays
-Funções básicas
-Manipulação de strings
-Controle de fluxo (switch, loops)
+- Estruturas (`struct`) para modelagem de dados
+- Vetores de structs para armazenamento de múltiplos livros
+- Manipulação de strings com `fgets` e `strcspn`
+- Controle de fluxo com `switch`
+- Laço de repetição `do-while`
+- Validação básica de limites (MAX_LIVROS)
 
-  - Como executar
-gcc Biblioteca.c -o biblioteca
-./biblioteca
+## Funcionalidades
 
-- Autor
-Antônio Castro
+- Cadastro de novos livros
+- Listagem de livros cadastrados
+- Menu interativo no terminal
+- Controle de capacidade da biblioteca
+
+## Tecnologias
+
+- Linguagem C
+- Compilador GCC
